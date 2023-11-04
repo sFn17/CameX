@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.second
+{
+position:absolute;
+background-color:#ffffff;
+height:932px;
+width:430px;
+padding:0px;
+}
+.rectangle2
+{
+background-color:#eeda83;
+height:932px;
+width:430px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.send
+{
+color:#000000;
+text-align:center;
+vertical-align:text-middle;
+font-size:40px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+left:120px;
+top:46px;
+position:absolute;
+width:189px;
+}
+.rectangle22
+{
+background-color:#dcb342;
+height:59px;
+width:192px;
+border-radius:34px;
+top:833px;
+left:117px;
+position:absolute;
+}
+.back
+{
+color:#000000;
+text-align:center;
+vertical-align:text-middle;
+font-size:32px;
+font-family:Inter;
+left:150.68px;
+top:845.48px;
+width:122.9473648071289px;
+height:32.903846740722656px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.qr_code_for_mobile_english_wikipedia1
+{
+height:508px;
+width:430px;
+transform:rotate(-180deg);
+left:1px;
+top:215px;
+position:absolute;
+}
+.rectangle11
+{
+background-color:rgba(217, 217, 217, 0);
+height:422px;
+width:415px;
+border-radius:12px;
+border:7px solid #dcb342;
+top:255px;
+left:1px;
+position:absolute;
+}
