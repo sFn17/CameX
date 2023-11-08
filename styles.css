@@ -35,10 +35,11 @@ left:289px;
 top:868px;
 position:absolute;
 }
-.receive
+.button
 {
-color:#000000;
+color: #000000;
 text-align:center;
+background-color: transparent;
 vertical-align:text-middle;
 font-size:24px;
 font-family:Inter;
@@ -64,6 +65,7 @@ position:absolute;
 .send
 {
 color:#000000;
+background-color: transparent;
 text-align:center;
 vertical-align:text-middle;
 font-size:24px;
@@ -192,4 +194,3 @@ line-height:auto;
 border:86px solid #933535;
 width:183px;
 }
-

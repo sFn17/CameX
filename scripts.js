@@ -1,4 +1,4 @@
-document.getElementById('receive').addEventListener('click', function() {
+document.getElementById('button').addEventListener('click', function() {
     open('recive.html', '_self');
 });
 
