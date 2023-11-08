@@ -1,3 +1,3 @@
-document.getElementById('back').addEventListener('click', function() {
+document.getElementById('inapoi').addEventListener('click', function() {
     open('index.html', '_self');
 });
