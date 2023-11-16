@@ -1,196 +1,120 @@
-body {
-    background-color: white;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #009688;
+background-color:#dcb342;
+
+
+}
+.login{
+    width: 500px;
+    background: lightblue;
+    color: #fff;
+} 
+
+.login h1{
+    font-size: 36px;
+    text-align: center;
+
 }
 
-.principal
-{
-position:absolute;
-background-color:#ffffff;
-height:100%;
-width:100%;
-padding:0px;
-}
-.rectangle1
-{
-background-color:#eeda83;
-height:100%;
-width:100%;
-position:absolute;
-top:0px;
-left:0px;
-}
-.rectangle2
-{
-background-color:#dcb342;
-height:52px;
-width:114px;
-border-radius:34px;
-left:289px;
-top:868px;
-position:absolute;
-}
-.button
-{
-color: #000000;
-text-align:center;
-background-color: transparent;
-vertical-align:text-middle;
-font-size:24px;
-font-family:Inter;
-left:299px;
-top:879px;
-width:93px;
-height:29px;
-position:absolute;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-.rectangle22
-{
-background-color:#dcb342;
-height:52px;
-width:114px;
-border-radius:34px;
-top:868px;
-left:25px;
-position:absolute;
-}
-.send
-{
-color:#000000;
-background-color: transparent;
-text-align:center;
-vertical-align:text-middle;
-font-size:24px;
-font-family:Inter;
-left:51px;
-top:879px;
-width:61px;
-height:29px;
-position:absolute;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-.rectangle3
-{
-background-color:#dcb342;
-height:76px;
-width:292px;
-border-radius:17px;
-top:482px;
-left:69px;
-position:absolute;
-}
-.bani
-{
-color:#000000;
-text-align:center;
-vertical-align:text-middle;
-font-size:50px;
-font-family:Imprima;
-left:28px;
-top:490px;
-width:319px;
-height:89px;
-position:absolute;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-.camex
-{
-color:#000000;
-text-align:center;
-vertical-align:text-middle;
-font-size:70px;
-font-family:IBM Plex Sans Thai;
-left:89px;
-top:23px;
-width:252px;
-height:52px;
-position:absolute;
-line-height:auto;
-border-style:hidden;
-outline:none;
-}
-.vector
-{
-height:93.85314178466797px;
-width:129.95050048828125px;
-left:145.57px;
-top:365.53px;
-position:absolute;
-}
-.vector2
-{
-background-color:#000000;
-height:7.2194719314575195px;
-width:7.2194719314575195px;
-left:239.42px;
-top:408.84px;
-position:absolute;
-}
-.vector3
-{
-height:38.96977996826172px;
-width:108.29207611083984px;
-left:145.57px;
-top:341px;
-position:absolute;
-}
-.vector4
-{
-height:14.700002670288086px;
-width:14.700002670288086px;
-left:214.49px;
-top:878.79px;
-position:absolute;
-}
-.vector5
-{
-height:49px;
-width:49px;
-left:190px;
-top:869px;
-position:absolute;
-}
-.group9
-{
-width:87px;
-height:73px;
-left:171px;
-top:859px;
-position:absolute;
-}
-.vector6
-{
-height:87px;
-width:73px;
-width:73px;
-height:87px;
-left:258px;
-top:932px;
-width:73px;
-height:87px;
-position:absolute;
+.login .input-box{
+    width: 100%;
+    height: 50px;
+    background: lightgreen;
+    margin: 30px 0;
+
 }
 
-.camel
-{
-color:#733434;
-text-align:center;
-vertical-align:text-middle;
-font-size:40px;
-font-family:Inter;
-line-height:auto;
-border:86px solid #933535;
-width:183px;
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding-left: 15px;
+    color: #fff;
+    outline: none;
+    border: 2px solid rgba(red, green, blue, .2);
+    border-radius: 40px;
 }
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: tranalateY(-50%);
+    font-size: 20px;
+
+}
+
+.login .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+.login .login-button{
+    width: 100%;
+    height: 50px;  
+    border: none;
+    background: #fff;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(red, green, blue, .2);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.login .register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+
